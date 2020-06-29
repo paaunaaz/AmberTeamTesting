@@ -1,0 +1,22 @@
+{
+  "name": "amberteamtesting",
+  "version": "1.0.0",
+  "description": "interview test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paaunaaz/AmberTeamTesting.git"
+  },
+  "author": "Paulina Naze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paaunaaz/AmberTeamTesting/issues"
+  },
+  "homepage": "https://github.com/paaunaaz/AmberTeamTesting#readme",
+  "devDependencies": {
+    "cypress": "^4.9.0"
+  }
+}
