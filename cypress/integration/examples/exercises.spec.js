@@ -38,7 +38,7 @@ describe('Exercises', () => {
         cy.get('.button').contains('Exercise 3 - Dropdown list').click();
         cy.get('h1.title').should('have.text', 'Exercise 3 - Dropdown list');
         // Get expected option and set it in dropdown
-        cy.get('td').contains('In the following dropdown choose ').find('code')
+        cy.get('td').contains('In the following dropdown choose ').find('code') 
             .then(element => {
                 cy.get('select#s13').select(element.text());
                 // Get expected result and compare with actual result
