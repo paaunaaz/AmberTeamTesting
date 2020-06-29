@@ -1,10 +1,10 @@
-#How to run tests?
+# How to run tests?
 1. Clone repository
 
 `git clone git@github.com:paaunaaz/AmberTeamTesting.git`
-1. Install dependecies
+2. Install dependecies
 
 `npm install`
-1. Run tests
+3. Run tests
 
 `npm run test`
